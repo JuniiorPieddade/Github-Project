@@ -1,0 +1,37 @@
+.searchArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.userData {
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.buttonSearch {
+    position: relative;
+    top: -42px;
+    left: 220px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+
+}
+
+.searchArea p {
+    position: relative;
+    bottom: 33px;
+}
+
+.searchArea img {
+    width: 300px;
+}
